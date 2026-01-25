@@ -1,0 +1,82 @@
+[
+  {
+    "id": "software-developer",
+    "title": "Software Developer",
+    "description": "Design, develop, and maintain software applications and systems using various programming languages and technologies.",
+    "category": "Technology",
+    "requirements": [
+      "Bachelor's degree in Computer Science or related field",
+      "Strong programming skills in multiple languages",
+      "Problem-solving and analytical thinking",
+      "Understanding of software development lifecycle"
+    ],
+    "skills": ["Programming", "Problem Solving", "Analytical Thinking", "Teamwork"],
+    "salary": { "min": 65000, "max": 150000, "currency": "USD" },
+    "growth": "Excellent - 22% growth expected",
+    "industry": "Technology",
+    "workEnvironment": "Office/Remote",
+    "educationLevel": "Bachelor's",
+    "experienceRequired": "0-2 years",
+    "tags": ["coding", "technology", "software", "development"]
+  },
+  {
+    "id": "ux-ui-designer",
+    "title": "UX/UI Designer",
+    "description": "Create intuitive and engaging user experiences for digital products through research, design, and collaboration.",
+    "category": "Design",
+    "requirements": [
+      "Bachelor's degree in Design, HCI, or related field",
+      "Strong design portfolio",
+      "Proficiency in design tools like Figma, Sketch, Adobe Creative Suite",
+      "Understanding of user-centered design principles"
+    ],
+    "skills": ["Creative Design", "User Research", "Prototyping", "Communication"],
+    "salary": { "min": 55000, "max": 120000, "currency": "USD" },
+    "growth": "Strong - 13% growth expected",
+    "industry": "Design/Technology",
+    "workEnvironment": "Office/Remote",
+    "educationLevel": "Bachelor's",
+    "experienceRequired": "0-2 years",
+    "tags": ["design", "user experience", "ui", "ux", "creative"]
+  },
+  {
+    "id": "data-scientist",
+    "title": "Data Scientist",
+    "description": "Analyze complex data to extract insights and drive business decisions using statistical methods and machine learning.",
+    "category": "Analytics",
+    "requirements": [
+      "Master's degree in Statistics, Mathematics, Computer Science, or related field",
+      "Strong programming skills in Python/R",
+      "Knowledge of machine learning algorithms",
+      "Statistical analysis and data visualization skills"
+    ],
+    "skills": ["Analytics", "Programming", "Statistics", "Machine Learning"],
+    "salary": { "min": 75000, "max": 180000, "currency": "USD" },
+    "growth": "Excellent - 31% growth expected",
+    "industry": "Technology/Analytics",
+    "workEnvironment": "Office/Remote",
+    "educationLevel": "Master's",
+    "experienceRequired": "2-5 years",
+    "tags": ["data", "analytics", "machine learning", "statistics", "python"]
+  },
+  {
+    "id": "digital-marketing-manager",
+    "title": "Digital Marketing Manager",
+    "description": "Develop and execute digital marketing strategies across multiple channels to drive brand awareness and customer acquisition.",
+    "category": "Marketing",
+    "requirements": [
+      "Bachelor's degree in Marketing, Business, or related field",
+      "Experience with digital marketing tools and platforms",
+      "Strong analytical and creative thinking skills",
+      "Understanding of SEO, SEM, and social media marketing"
+    ],
+    "skills": ["Marketing", "Analytics", "Creative Thinking", "Project Management"],
+    "salary": { "min": 50000, "max": 100000, "currency": "USD" },
+    "growth": "Strong - 10% growth expected",
+    "industry": "Marketing/Business",
+    "workEnvironment": "Office/Remote",
+    "educationLevel": "Bachelor's",
+    "experienceRequired": "3-5 years",
+    "tags": ["marketing", "digital", "seo", "social media", "advertising"]
+  }
+]

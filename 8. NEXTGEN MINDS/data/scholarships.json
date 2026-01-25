@@ -1,0 +1,103 @@
+[
+  {
+    "id": "tech-excellence",
+    "title": "Technology Excellence Scholarship",
+    "description": "Supporting students pursuing careers in computer science, software engineering, and related technology fields.",
+    "amount": { "min": 2500, "max": 10000, "currency": "USD" },
+    "eligibility": [
+      "Pursuing degree in Computer Science, Software Engineering, or related field",
+      "Minimum GPA of 3.5",
+      "Demonstrated interest in technology and innovation",
+      "U.S. citizen or permanent resident"
+    ],
+    "deadline": "2025-03-15",
+    "renewable": true,
+    "provider": "Tech Education Foundation",
+    "applicationRequirements": [
+      "Completed application form",
+      "Academic transcripts",
+      "Two letters of recommendation",
+      "Personal statement (500 words)",
+      "Portfolio of projects (optional)"
+    ],
+    "website": "https://example.com/tech-scholarship",
+    "categories": ["Technology", "STEM"],
+    "targetCareers": ["software-developer", "data-scientist"]
+  },
+  {
+    "id": "creative-minds",
+    "title": "Creative Minds Design Scholarship",
+    "description": "Empowering the next generation of designers and creative professionals through financial support and mentorship.",
+    "amount": { "min": 1500, "max": 7500, "currency": "USD" },
+    "eligibility": [
+      "Pursuing degree in Design, Fine Arts, or related creative field",
+      "Minimum GPA of 3.0",
+      "Strong portfolio demonstrating creative abilities",
+      "Financial need consideration"
+    ],
+    "deadline": "2025-04-30",
+    "renewable": false,
+    "provider": "Creative Arts Alliance",
+    "applicationRequirements": [
+      "Online application",
+      "Academic transcripts",
+      "Design portfolio (10-15 pieces)",
+      "Artist statement (750 words)",
+      "One letter of recommendation from art instructor"
+    ],
+    "website": "https://example.com/creative-scholarship",
+    "categories": ["Arts", "Design"],
+    "targetCareers": ["ux-ui-designer"]
+  },
+  {
+    "id": "stem-diversity",
+    "title": "STEM Diversity and Inclusion Grant",
+    "description": "Promoting diversity in STEM fields by supporting underrepresented students in science, technology, engineering, and mathematics.",
+    "amount": { "min": 3000, "max": 12000, "currency": "USD" },
+    "eligibility": [
+      "Member of underrepresented group in STEM",
+      "Pursuing STEM degree at accredited institution",
+      "Minimum GPA of 3.2",
+      "Demonstrated leadership potential",
+      "U.S. citizen or permanent resident"
+    ],
+    "deadline": "2025-02-28",
+    "renewable": true,
+    "provider": "National STEM Advancement Organization",
+    "applicationRequirements": [
+      "Complete online application",
+      "Official transcripts",
+      "Three letters of recommendation",
+      "Personal statement addressing diversity and inclusion (1000 words)",
+      "Resume highlighting STEM activities and leadership"
+    ],
+    "website": "https://example.com/stem-diversity",
+    "categories": ["STEM", "Diversity", "Science"],
+    "targetCareers": ["data-scientist", "software-developer"]
+  },
+  {
+    "id": "business-leaders",
+    "title": "Future Business Leaders Scholarship",
+    "description": "Supporting ambitious students who demonstrate leadership potential and entrepreneurial spirit in business and marketing fields.",
+    "amount": { "min": 2000, "max": 8000, "currency": "USD" },
+    "eligibility": [
+      "Pursuing degree in Business, Marketing, or related field",
+      "Minimum GPA of 3.3",
+      "Demonstrated leadership experience",
+      "Interest in entrepreneurship or business innovation"
+    ],
+    "deadline": "2025-05-15",
+    "renewable": false,
+    "provider": "Business Excellence Institute",
+    "applicationRequirements": [
+      "Scholarship application form",
+      "Academic transcripts",
+      "Two letters of recommendation (one from business professional)",
+      "Business plan or marketing project proposal",
+      "Leadership essay (600 words)"
+    ],
+    "website": "https://example.com/business-scholarship",
+    "categories": ["Business", "Marketing", "Leadership"],
+    "targetCareers": ["digital-marketing-manager"]
+  }
+]

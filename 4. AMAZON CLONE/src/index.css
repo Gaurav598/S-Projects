@@ -1,0 +1,170 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Amazon India Design System - Exact replica styling */
+
+@layer base {
+  :root {
+    /* Amazon Brand Colors */
+    --amazon-orange: 37 100% 50%; /* #FF9900 */
+    --amazon-dark-blue: 210 100% 6%; /* #0F1111 */
+    --amazon-light-blue: 193 100% 35%; /* #007185 */
+    
+    /* Core System Colors */
+    --background: 0 0% 100%;
+    --foreground: 210 11% 7%; /* #131921 Amazon's text color */
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 11% 7%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 11% 7%;
+
+    --primary: 37 100% 50%; /* Amazon Orange */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 7% 89%; /* Light gray for secondary elements */
+    --secondary-foreground: 210 11% 7%;
+
+    --muted: 210 6% 93%; /* Very light gray */
+    --muted-foreground: 215 14% 34%; /* Medium gray */
+
+    --accent: 193 100% 35%; /* Amazon Blue */
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 213 12% 88%; /* Light border */
+    --input: 213 12% 88%;
+    --ring: 37 100% 50%; /* Amazon Orange for focus rings */
+
+    --radius: 0.25rem; /* Amazon uses smaller radius */
+
+    /* Amazon Specific Colors */
+    --amazon-header-dark: 210 100% 6%; /* #0F1111 */
+    --amazon-header-light: 210 98% 8%; /* #131A22 */
+    --amazon-deal-red: 0 100% 50%; /* #FF0000 */
+    --amazon-price: 7 85% 35%; /* #B12704 */
+    --amazon-strike: 0 0% 50%; /* Gray for strikethrough prices */
+    --amazon-rating: 37 100% 50%; /* Orange for stars */
+    --amazon-delivery: 120 100% 25%; /* Green for delivery */
+    
+    /* Shadows */
+    --shadow-card: 210 40% 8%;
+    --shadow-header: 210 40% 3%;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  /* Amazon-specific utility classes */
+  @layer components {
+    .amazon-header-gradient {
+      background: linear-gradient(to bottom, hsl(var(--amazon-header-light)), hsl(var(--amazon-header-dark)));
+    }
+    
+    .amazon-button {
+      @apply bg-primary hover:bg-primary/90 text-primary-foreground font-medium rounded-sm px-4 py-2 transition-colors;
+    }
+    
+    .amazon-button-secondary {
+      @apply bg-secondary hover:bg-secondary/80 text-secondary-foreground border border-border rounded-sm px-4 py-2 transition-colors;
+    }
+    
+    .amazon-search-button {
+      @apply bg-primary hover:bg-primary/90 text-primary-foreground rounded-r-sm px-6 py-2 transition-colors;
+    }
+    
+    .amazon-price {
+      @apply text-[hsl(var(--amazon-price))] font-bold;
+    }
+    
+    .amazon-price-strike {
+      @apply text-[hsl(var(--amazon-strike))] line-through text-sm;
+    }
+    
+    .amazon-rating {
+      @apply text-[hsl(var(--amazon-rating))];
+    }
+    
+    .amazon-delivery {
+      @apply text-[hsl(var(--amazon-delivery))] font-medium;
+    }
+    
+    .amazon-card {
+      @apply bg-card border border-border rounded-sm p-4 hover:shadow-md transition-shadow;
+    }
+    
+    .amazon-card-hover {
+      @apply hover:shadow-lg hover:shadow-[hsl(var(--shadow-card))/10] transition-all duration-200;
+    }
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+  
+  /* Amazon-like typography */
+  h1 { @apply text-2xl font-bold text-foreground; }
+  h2 { @apply text-xl font-semibold text-foreground; }
+  h3 { @apply text-lg font-medium text-foreground; }
+}

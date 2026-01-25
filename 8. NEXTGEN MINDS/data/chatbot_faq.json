@@ -1,0 +1,72 @@
+[
+  {
+    "id": "career-assessment",
+    "question": "How does the career assessment work?",
+    "answer": "Our career assessment analyzes your interests, skills, values, and personality to provide personalized career recommendations. It takes about 10-15 minutes to complete and uses validated career assessment models.",
+    "category": "assessment",
+    "keywords": ["career", "assessment", "test", "evaluation", "how", "work"]
+  },
+  {
+    "id": "quiz-retake",
+    "question": "Can I retake the quiz?",
+    "answer": "Yes! You can retake the career quiz at any time. Your previous results will be saved, and you can compare different assessments to see how your preferences change over time.",
+    "category": "quiz",
+    "keywords": ["retake", "quiz", "again", "repeat", "test", "redo"]
+  },
+  {
+    "id": "recommendation-accuracy",
+    "question": "How accurate are the career recommendations?",
+    "answer": "Our recommendations are based on validated career assessment models and industry data. While they provide excellent guidance, we encourage you to explore multiple careers and speak with professionals in your areas of interest for the most comprehensive perspective.",
+    "category": "recommendations",
+    "keywords": ["accurate", "recommendations", "reliable", "trust", "validity"]
+  },
+  {
+    "id": "dislike-recommendations",
+    "question": "What if I don't like any of my recommended careers?",
+    "answer": "That's perfectly fine! Career exploration is a journey. You can retake the assessment with different responses, explore the full career database, or use the chat to discuss your concerns and preferences. We can help you find alternatives.",
+    "category": "recommendations",
+    "keywords": ["don't like", "not interested", "different", "other options", "alternatives"]
+  },
+  {
+    "id": "data-privacy",
+    "question": "Is my data private and secure?",
+    "answer": "Yes, your privacy is our top priority. All data is stored locally in your browser using IndexedDB and can be deleted at any time. We don't share your personal information with third parties, and you have full control over your data.",
+    "category": "privacy",
+    "keywords": ["privacy", "secure", "data", "safe", "confidential", "security"]
+  },
+  {
+    "id": "roadmap-explanation",
+    "question": "How do the career roadmaps work?",
+    "answer": "Career roadmaps provide step-by-step guidance for reaching your career goals. Each step includes duration estimates, required resources, and tracks your progress. You can mark steps as completed and get recommendations for next actions.",
+    "category": "roadmap",
+    "keywords": ["roadmap", "steps", "career path", "guidance", "timeline"]
+  },
+  {
+    "id": "offline-functionality",
+    "question": "Does the app work offline?",
+    "answer": "Yes! Career Advisor is built as a Progressive Web App (PWA) and works offline. Your data is stored locally, so you can access your profile, recommendations, and roadmaps even without an internet connection.",
+    "category": "features",
+    "keywords": ["offline", "internet", "connection", "pwa", "local"]
+  },
+  {
+    "id": "export-import",
+    "question": "Can I backup or export my data?",
+    "answer": "Absolutely! You can export all your data (profile, quiz results, progress, and chat history) as a JSON file from the Settings page. You can also import this data to restore your information on another device or browser.",
+    "category": "data",
+    "keywords": ["backup", "export", "import", "data", "transfer", "save"]
+  },
+  {
+    "id": "scholarship-info",
+    "question": "Do you provide scholarship information?",
+    "answer": "Yes! Based on your profile and career interests, I can help you find relevant scholarship opportunities. The scholarship database includes information about eligibility, deadlines, and application requirements.",
+    "category": "scholarships",
+    "keywords": ["scholarship", "funding", "financial aid", "education", "money"]
+  },
+  {
+    "id": "multiple-careers",
+    "question": "Can I explore multiple career paths?",
+    "answer": "Definitely! You can explore as many careers as you'd like. Save interesting careers for later comparison, and don't hesitate to ask about different career combinations or transition paths between fields.",
+    "category": "exploration",
+    "keywords": ["multiple", "careers", "explore", "different", "comparison", "options"]
+  }
+]

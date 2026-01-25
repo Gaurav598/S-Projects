@@ -1,0 +1,18 @@
+{
+  "name": "NextGen Minds",
+  "short_name": "NextGenMinds",
+  "description": "AI-powered NextGen Minds - Discover your perfect career path",
+  "theme_color": "#3b82f6",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/career-advisor-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

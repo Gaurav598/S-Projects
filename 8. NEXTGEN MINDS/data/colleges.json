@@ -1,0 +1,185 @@
+[
+  {
+    "id": "state-tech-university",
+    "name": "State University of Technology",
+    "location": {
+      "city": "Tech City",
+      "state": "California",
+      "country": "USA"
+    },
+    "type": "Public",
+    "size": "Large (20,000+ students)",
+    "established": 1965,
+    "website": "https://example.com/state-tech",
+    "programs": [
+      {
+        "degree": "Bachelor of Science",
+        "major": "Computer Science",
+        "duration": "4 years",
+        "credits": 120,
+        "specializations": ["Software Engineering", "Artificial Intelligence", "Cybersecurity"]
+      },
+      {
+        "degree": "Master of Science",
+        "major": "Data Science",
+        "duration": "2 years",
+        "credits": 36,
+        "specializations": ["Machine Learning", "Big Data Analytics", "Statistical Modeling"]
+      }
+    ],
+    "admissionRequirements": {
+      "gpa": 3.2,
+      "testScores": ["SAT: 1200+", "ACT: 26+"],
+      "requirements": [
+        "High school diploma or equivalent",
+        "Letters of recommendation",
+        "Personal statement",
+        "Math and science prerequisites"
+      ]
+    },
+    "tuition": {
+      "inState": 12000,
+      "outOfState": 28000,
+      "international": 35000,
+      "currency": "USD"
+    },
+    "financialAid": {
+      "available": true,
+      "scholarships": ["Merit-based", "Need-based", "Research assistantships"],
+      "averageAid": 8500
+    },
+    "rankings": {
+      "overall": 85,
+      "computerScience": 42,
+      "engineering": 38
+    },
+    "targetCareers": ["software-developer", "data-scientist"],
+    "features": [
+      "State-of-the-art computer labs",
+      "Industry partnership programs",
+      "Co-op and internship opportunities",
+      "Research opportunities for undergraduates"
+    ]
+  },
+  {
+    "id": "creative-arts-college",
+    "name": "Metropolitan College of Arts & Design",
+    "location": {
+      "city": "Design District",
+      "state": "New York",
+      "country": "USA"
+    },
+    "type": "Private",
+    "size": "Medium (5,000-15,000 students)",
+    "established": 1923,
+    "website": "https://example.com/metro-arts",
+    "programs": [
+      {
+        "degree": "Bachelor of Fine Arts",
+        "major": "Graphic Design",
+        "duration": "4 years",
+        "credits": 128,
+        "specializations": ["Digital Design", "Brand Identity", "Web Design"]
+      },
+      {
+        "degree": "Bachelor of Arts",
+        "major": "User Experience Design",
+        "duration": "4 years",
+        "credits": 120,
+        "specializations": ["Mobile Design", "Service Design", "Design Research"]
+      }
+    ],
+    "admissionRequirements": {
+      "gpa": 3.0,
+      "testScores": ["SAT: 1100+", "ACT: 24+"],
+      "requirements": [
+        "Portfolio submission (15-20 pieces)",
+        "Artist statement",
+        "Letters of recommendation",
+        "Interview (for some programs)"
+      ]
+    },
+    "tuition": {
+      "annual": 45000,
+      "currency": "USD"
+    },
+    "financialAid": {
+      "available": true,
+      "scholarships": ["Talent-based", "Need-based", "Diversity scholarships"],
+      "averageAid": 15000
+    },
+    "rankings": {
+      "overall": 72,
+      "artAndDesign": 28,
+      "digitalMedia": 15
+    },
+    "targetCareers": ["ux-ui-designer"],
+    "features": [
+      "Professional design studios",
+      "Industry mentorship programs",
+      "Gallery exhibition opportunities",
+      "NYC creative industry connections"
+    ]
+  },
+  {
+    "id": "business-excellence-uni",
+    "name": "University of Business Excellence",
+    "location": {
+      "city": "Commerce City",
+      "state": "Texas",
+      "country": "USA"
+    },
+    "type": "Private",
+    "size": "Medium (5,000-15,000 students)",
+    "established": 1889,
+    "website": "https://example.com/business-excellence",
+    "programs": [
+      {
+        "degree": "Bachelor of Business Administration",
+        "major": "Marketing",
+        "duration": "4 years",
+        "credits": 120,
+        "specializations": ["Digital Marketing", "Brand Management", "Consumer Psychology"]
+      },
+      {
+        "degree": "Master of Business Administration",
+        "major": "Marketing Management",
+        "duration": "2 years",
+        "credits": 48,
+        "specializations": ["Strategic Marketing", "International Marketing", "Marketing Analytics"]
+      }
+    ],
+    "admissionRequirements": {
+      "gpa": 3.4,
+      "testScores": ["SAT: 1250+", "ACT: 28+", "GMAT: 550+ (MBA)"],
+      "requirements": [
+        "Business coursework preferred",
+        "Leadership experience",
+        "Letters of recommendation",
+        "Work experience (for MBA)"
+      ]
+    },
+    "tuition": {
+      "undergraduate": 38000,
+      "graduate": 52000,
+      "currency": "USD"
+    },
+    "financialAid": {
+      "available": true,
+      "scholarships": ["Merit-based", "Need-based", "MBA fellowships"],
+      "averageAid": 12000
+    },
+    "rankings": {
+      "overall": 68,
+      "business": 45,
+      "marketing": 32
+    },
+    "targetCareers": ["digital-marketing-manager"],
+    "features": [
+      "AACSB accredited business programs",
+      "Corporate partnership network",
+      "International exchange programs",
+      "Entrepreneurship incubator"
+    ]
+  }
+]
